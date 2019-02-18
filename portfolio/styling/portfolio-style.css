@@ -1,0 +1,103 @@
+@font-face {
+    font-family: "WorkSansBold";
+    src: url("fonts/WorkSans-Bold.otf");
+} 
+
+@font-face {
+    font-family: "WorkSansSkinny";
+    src: url("fonts/WorkSans-Hairline.otf");
+}
+
+* {
+    margin: 0;
+}
+
+body {
+    margin:auto;
+    max-width: 1000px;
+}
+
+.large-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("images/desk.jpg");
+    height:500px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.small-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("images/desk.jpg");
+    height:35px;
+    background-size: cover;
+}
+
+header h1{
+    font-family: "WorkSansBold";
+    font-size: 50px;
+    color:rgb(230, 230, 230);
+    text-align: center;
+}
+
+.name-title {
+    position:relative;
+    top:30px;
+}
+
+header h2{
+    font-family: "WorkSansSkinny";
+    color: rgb(230, 230, 230);
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+}
+
+.Headshot {
+    width:200px;
+    height:200px;
+    border-radius: 200px;
+    border: solid 5px rgb(230, 230, 230);
+    margin:0 auto;
+    position:relative;
+    top:60px;
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    padding-bottom:5px;
+    padding-top:5px;
+    border-bottom: 1px solid rgb(230, 230, 230);
+}
+
+nav h2 {
+    width:75px;
+    font-size:15px;
+}
+
+nav h2:hover {
+    text-decoration: underline;
+}
+
+main {
+    position:relative;
+    top:+100px;
+    max-width:250px;
+    margin: 0 auto;
+}
+
+main h2{
+    font-family: 'Montserrat';
+    font-weight: bold;
+}
+
+main p{
+    padding-left:30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(230, 230, 230);
+}
